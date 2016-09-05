@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Playground</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/bundle.js" type="text/javascript" async></script>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside>
+        <p>Add your own tab</p>
+        <a href="#" class="collapse-button collapse" title="collapse">&#8656;</a>
+        <form name="newTab">
+            <div class="input-group">
+                <label for="text">Index</label>
+                <input type="text" id="index"  placeholder="Enter tab's index">
+            </div>
+            <div class="input-group">
+                <label for="title">Title</label>
+                <input type="text" id="title"  placeholder="Enter tab's title">
+            </div>
+            <div class="input-group">
+                <label for="image">Image</label>
+                <input type="text" id="image"  placeholder="Enter image url">
+            </div>
+            <div class="input-group">
+                <label for="html">HTML content</label>
+                <textarea id="html"  placeholder="Content"></textarea>
+            </div>
+            <button class="add">ADD</button>
+            <button class="edit">EDIT</button>
+            <button class="reset">RESET</button>
+        </form>
+    </aside>
+    <main>
+        <div class="slider">
+        </div>
+        <ul class="tabs">
+            <li class="tab">One</li>
+            <li class="tab">Two</li>
+            <li class="tab">Three</li>
+            <li class="tab">Four</li>
+        </ul>
+        <div class="content">  
+        </div>
+    </main>
+</body>
+</html>
